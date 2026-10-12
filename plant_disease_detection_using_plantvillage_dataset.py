@@ -61,26 +61,6 @@ ImageFile.LOAD_TRUNCATED_IMAGES = False
 
 sns.set_theme(style="whitegrid")
 
-"""## LOCATE THE DATASET PATH
-
-> We identify our actual structure before loading any images, this will help us to know the directory where our dataset is located.
-
-
-"""
-
-import os
-
-ZIP_PATH = "/content/drive/MyDrive/DATASET/PlantVillage.zip"
-
-if os.path.isfile(ZIP_PATH):
-    size_mb = os.path.getsize(ZIP_PATH) / (1024 ** 2)
-    print("PlantVillage ZIP file found!")
-    print(f"File size: {size_mb:.2f} MB")
-else:
-    raise FileNotFoundError(
-        f"ZIP file not found: {ZIP_PATH}\n"
-        "Ensure Google Drive is mounted."
-    )
 
 """## EXTRACT THE DATASET FROM THE DRIVE
 

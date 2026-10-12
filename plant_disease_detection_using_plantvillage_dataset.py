@@ -61,17 +61,6 @@ ImageFile.LOAD_TRUNCATED_IMAGES = False
 
 sns.set_theme(style="whitegrid")
 
-"""## MOUNT THE DRIVE
-
-> The colab is mounted with the drive so as to locate the dataset uploaded after it has been downloaded from Kaggle.
-
-
-"""
-
-from google.colab import drive
-
-drive.mount('/content/drive')
-
 """## LOCATE THE DATASET PATH
 
 > We identify our actual structure before loading any images, this will help us to know the directory where our dataset is located.

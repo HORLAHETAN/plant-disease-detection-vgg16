@@ -28,7 +28,7 @@ The dataset contains images of plant leaves belonging to different plant species
 | Attribute | Description |
 |---|---|
 | Dataset name | PlantVillage |
-| Total images identified | 20,634 |
+| Total images identified | 20,624 |
 | Number of classes | 15 |
 | Image type | Plant leaf images |
 | Task | Multiclass image classification |

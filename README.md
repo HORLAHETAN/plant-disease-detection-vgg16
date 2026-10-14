@@ -9,7 +9,6 @@ The project explores how convolutional neural networks can support automated pla
 ## Objectives
 
 - Develop a plant disease classification system using VGG16.
-- Apply transfer learning using pretrained ImageNet weights.
 - Perform exploratory data analysis (EDA) on the PlantVillage dataset.
 - Preprocess images and prepare training, validation, and testing datasets.
 - Apply data augmentation and fine-tuning to improve model generalization.
